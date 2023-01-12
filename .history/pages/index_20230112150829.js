@@ -63,7 +63,7 @@ const CheckLogin = ( )=> {
         required
         minLength="5"
         maxLength="10"
-        onChange={(e => setFormData({...formData,username: e.target.value}))}
+        onChange={(e => setFormData({...formData,firstName: e.target.value}))}
         />
 
         <button type='submit'onClick={() =>CheckLogin()}>Submit </button>

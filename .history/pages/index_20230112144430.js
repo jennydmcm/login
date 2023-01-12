@@ -12,29 +12,15 @@ export default function Home() {
 
 const router = useRouter();
 
-const [formData, setFormData] = useState({
+const [FormData, setFormData] = useState({
   firstName: '',
   username: ''
 })
 
 const CheckLogin = ( )=> {
  console.log(formData.firstName);
-
  console.log(formData); 
- 
- 
- if(formData.username !== null){
-  router.push({
-    pathname: './counter',
-    query: {
-      username: formData.username
-    }
-  })
 }
-}
-
-
-
 
   return (
     <>
@@ -63,7 +49,6 @@ const CheckLogin = ( )=> {
         required
         minLength="5"
         maxLength="10"
-        onChange={(e => setFormData({...formData,username: e.target.value}))}
         />
 
         <button type='submit'onClick={() =>CheckLogin()}>Submit </button>
