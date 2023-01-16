@@ -45,8 +45,8 @@ const CheckLogin = ( )=> {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <label className={styles.label}>First Name:</label>
-        <input className={styles.input}
+        <label className="label">First Name:</label>
+        <input className="(styles.input)"
         type="text"
         id='first'
         name='first'
@@ -55,8 +55,8 @@ const CheckLogin = ( )=> {
         onChange={(e => setFormData({...formData,firstName: e.target.value}))}
         />
 
-        <label className={styles.label}>Username:</label>
-        <input className={styles.input} 
+        <label className="label">Username:</label>
+        <input
         type="text"
         id="username"
         name="username"
@@ -66,7 +66,7 @@ const CheckLogin = ( )=> {
         onChange={(e => setFormData({...formData,username: e.target.value}))}
         />
 
-        <button className={styles.submit} type='submit'onClick={() =>CheckLogin()}>Submit </button>
+        <button type='submit'onClick={() =>CheckLogin()}>Submit </button>
 
       </main>
     </>

@@ -16,16 +16,14 @@ export default function Counter() {
 
     return (
         <>
-        <div className={styles.content}>
         <div className={styles.title}>COUNTER PAGE</div>
         <div className={styles.welcome}>Welcome {isUser}</div>
 
 
         <div className={styles.number}>{number}</div>
-        <button className={styles.button} onClick={() => setNumber(number + 1)}>Increment</button>
-        <button className={styles.button} onClick={() => setNumber(number - 1)}>Decrement</button>
-      </div>  
-      </>
+        <button onClick={() => setNumber(number + 1)}>Increment</button>
+        <button onClick={() => setNumber(number - 1)}>Decrement</button>
+        </>
     )
 
 

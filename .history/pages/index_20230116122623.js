@@ -56,7 +56,7 @@ const CheckLogin = ( )=> {
         />
 
         <label className={styles.label}>Username:</label>
-        <input className={styles.input} 
+        <input className={styles.input}
         type="text"
         id="username"
         name="username"
@@ -66,7 +66,7 @@ const CheckLogin = ( )=> {
         onChange={(e => setFormData({...formData,username: e.target.value}))}
         />
 
-        <button className={styles.submit} type='submit'onClick={() =>CheckLogin()}>Submit </button>
+        <button className='(styles.submit)' type='submit'onClick={() =>CheckLogin()}>Submit </button>
 
       </main>
     </>

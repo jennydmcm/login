@@ -10,26 +10,18 @@
   color: lightblue;
   font-weight: bolder;
   font-size: large;
-  background-color: whitesmoke;
 }
 .submit{
   border-radius: 30px;
   margin: 10px;
   border: none;
-  width: 200px;
-  height: 25px;
-  padding: 5px;
-  color: gray;
-  background-color: lightblue;
+  width: 100px;
+  height: 50px;
 }
 .input{
-  color: lightblue;
+  color: white;
   border-radius: 10px;
-  margin: 20px;
   width: 50px;
-  border: 2px solid lightblue;
-  width: 300px;
-  padding: 5px;
 }
 
 .description {

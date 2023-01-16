@@ -1,8 +1,11 @@
+.body{
+  background-color: antiquewhite;
+}
 
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
@@ -10,26 +13,11 @@
   color: lightblue;
   font-weight: bolder;
   font-size: large;
-  background-color: whitesmoke;
 }
-.submit{
-  border-radius: 30px;
-  margin: 10px;
-  border: none;
-  width: 200px;
-  height: 25px;
-  padding: 5px;
-  color: gray;
-  background-color: lightblue;
-}
-.input{
-  color: lightblue;
+
+.first{
   border-radius: 10px;
-  margin: 20px;
-  width: 50px;
-  border: 2px solid lightblue;
-  width: 300px;
-  padding: 5px;
+  height: 50px;
 }
 
 .description {
